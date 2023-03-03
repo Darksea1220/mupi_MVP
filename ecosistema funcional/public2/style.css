@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+img{
+    scale: 0.5;
+}
+
+#button{
+    position: absolute;
+    top: 120rem;
+    left: 35rem;
+}
+#changer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 92rem;
+    left: 26rem;
+}
+
+#change_l{
+padding-left: 35rem;
+}
+
+#color{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 81rem;
+    left: 46rem;
+}
+#change_d{
+    padding-top: 30rem;
+}
+#colors{
+    position: absolute;
+    top: 77.5rem;
+}
+#submit{
+    position:absolute;
+    top: 90rem;
+    left: 22rem;
+}
