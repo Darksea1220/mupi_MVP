@@ -183,7 +183,10 @@ moved.addEventListener('click',()=>{
 submit.addEventListener('click',()=>{
     document.getElementById("display").src="https://github.com/Darksea1220/imagenes_mupi/blob/master/final_phone.png?raw=true";
     document.getElementById("submit").src=""
+    let userData={
+        name: "Douglas",
+        email: "Doug@gmail.com",
+        phone: "30123456789"
+    };
+    socket.emit('catch', userData);
 ;})
-
-//se me fue un poquito la mano con los switch... meeh, se me fue al carajo pero funciona, 
-//para el final espero poder optimizarlo
