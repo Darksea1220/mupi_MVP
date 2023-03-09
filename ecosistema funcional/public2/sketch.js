@@ -12,6 +12,7 @@ let mover=document.getElementById("change_r");
 let movel=document.getElementById("change_l");
 let moveu=document.getElementById("change_u");
 let moved=document.getElementById("change_d");
+let fields=document.getElementById("fields");
 let submit=document.getElementById("submit");
 let chooseCar="https://github.com/Darksea1220/imagenes_mupi/blob/master/EQ.png?raw=true";
 
@@ -67,6 +68,7 @@ button.addEventListener("click",()=>{
             chooseCar="https://github.com/Darksea1220/imagenes_mupi/blob/master/Final_mupi.png?raw=true";
             socket.emit('change', chooseCar)
             document.getElementById("display").src="https://github.com/Darksea1220/imagenes_mupi/blob/master/fields.png?raw=true";
+            fields.style.zIndex=1;
             document.getElementById("submit").src="https://github.com/Darksea1220/imagenes_mupi/blob/master/submit.png?raw=true";
         break;
     

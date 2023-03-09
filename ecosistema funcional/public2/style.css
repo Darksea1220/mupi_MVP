@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-div{
+.container{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,4 +48,23 @@ padding-left: 35rem;
     position:absolute;
     top: 90rem;
     left: 22rem;
+}
+#fields{
+    position:absolute;
+    top: 60rem;
+    left: 30rem;
+    z-index: -100;
+}
+.field{
+    margin-bottom: 1.5rem;
+}
+label{
+    font-family: 'Bayon', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+input{
+width: 37.7rem;
+height: 4rem;
+font-size: 2rem;
 }
