@@ -183,6 +183,7 @@ moved.addEventListener('click',()=>{
 
 //final
 submit.addEventListener('click',()=>{
+    fields.style.zIndex=-100;
     document.getElementById("display").src="https://github.com/Darksea1220/imagenes_mupi/blob/master/final_phone.png?raw=true";
     document.getElementById("submit").src=""
     let userData={
